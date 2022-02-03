@@ -2,7 +2,6 @@
 # Henri Lepik
 # 01.02.22
 
-from math import *
 
 # Kolmnurga ümbermõõt
 # Henri Lepik
@@ -28,11 +27,11 @@ print(Kogus, "Toote hind on",summa, "€")
 # Henri Lepik
 # 01.02.23
 
-soberad = 3
+sober = 3
 Hind = 12.90
 Joot = 0.1
-summa1 = round(soberad/(Hind*Joot),2)
-print("Iga üks peab plekima ",summa1,"€")
+summa = round(sober/(Hind*Joot),2)
+print("Iga üks peab plekima ",summa,"€")
 
 # Rulluisud
 # Henri Lepik
@@ -40,8 +39,8 @@ print("Iga üks peab plekima ",summa1,"€")
 
 kiirus = 29.9 #km/h
 aeg = 24 # minut
-kuluaeg = round(((kiirus/60)*aeg),2)
-print("Rulluikude kiirus" ,str(kiirus), "km/h jõuaks kohale" ,aeg, "minutiga," ,kuluaeg, "km kaugele")
+kulunddaeg = round(((kiirus/60)*aeg),2)
+print("Rulluikude kiirus" ,str(kiirus), "km/h jõuaks kohale" ,aeg, "minutiga," ,kulundaeg, "km kaugele")
 
 # Kolmnurga hüpotenus
 # Henri Lepik
@@ -66,19 +65,19 @@ print("Aeg on siis:",aeg,":",aeg2)
 # Henri Lepik
 # 01.02.22
 
-numba = int(input("kirjuta number : "))
-numba2 = bin(numba)
-print(numba2)
-numba3 = hex(numba)
-print(numba3)
+number = int(input("kirjuta number : "))
+number2 = bin(number)
+print(number2)
+number3 = hex(number)
+print(number3)
 
 # Kütus
 # Henri Lepik
 # 01.02.22
 
-kyts = int(input("kirjuta kulutatud kütus (Liitrides): "))
+kytus = int(input("kirjuta kulutatud kütus (Liitrides): "))
 maa = int(input("kirjuta selle kütusega sõidetud maa (km): "))
-kulund1 = kyts/(maa/100)
+kulund1 = kytus/(maa/100)
 print("kulub 100 km kohta",kulund1,"liitrit kütust")
 
 
