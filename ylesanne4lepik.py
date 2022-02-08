@@ -2,6 +2,38 @@
 #Henri Lepik
 #03.02.22
 
+
+#paaris ja paaritu
+
+
+#pisikekorrutustabel
+
+
+#viisikud
+
+
+#arvamismäng
+
+
+#pank
+
+
+#ruutude ja kuupde tabel
+
+
+
+
+#loto
+
+
+
+#tärnid
+
+for l in range(1,6):
+    for k in range(1,6):
+        print("*",end="")
+    print()
+
 #ruut
 a = int(input("1. kylg: "))
 b = int(input("2. kylg: "))
@@ -36,14 +68,24 @@ if aasta2%5==0:
     print("sul on juubel")
 else:
     print("sul pole juubel")
-    
 
 #müük
 
+hind= int(input("kirjuta toote hind:"))
+if hind > 10:
+    print(hind - hind * 0.2)
+else:
+    print(hind - hind * 0.1)
 
 #jalgpalli meesk
 
-
-#tärnid
-
+sugu = input("sisesta sugu: ")
+if sugu == "m":
+    vanus = int(input("sisesta oma vanus"))
+    if vanus >= 16 and vanus <=18:
+        print("oled jah")
+    else:
+        print("oled ei")
+else:
+    print("oled ei")
 
