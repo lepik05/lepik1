@@ -5,6 +5,17 @@
 
 #paaris ja paaritu
 
+for i in range(1,11):
+    if i%2==0:
+        print(i, "paaris")
+    else:
+        print(i,"paaritu")
+
+#ruutude ja kuupde tabel
+
+for i in range(1,11):
+    print(f"{i:5}{i**2:5}{i**3:5}")
+    
 
 #pisikekorrutustabel
 
@@ -61,14 +72,8 @@ for i in range(aastad):
     print(f"{i:4}{konto:10.2f} {kasum:10.2f} {konto+kasum:10.2f}")
     konto+=kasum
     
-#ruutude ja kuupde tabel
-
-for h in range(1,11):
-    print(f"{h:4}")
-
-
 #loto
-print("loto arv on:")
+print("loto arvud on:")
 import random
 arv= random.randint(10000,99999)
 print(arv)
@@ -141,4 +146,3 @@ if sugu == "m":
         print("oled ei")
 else:
     print("oled ei")
-
