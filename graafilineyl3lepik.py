@@ -6,7 +6,7 @@ from tkinter import *
 
 #aknena
 aken = Tk()
-aken.title('Tkinter "Hello World"')
+aken.title('minunimi')
 aken.geometry("400x150")
 aken.resizable(0, 0)
 
