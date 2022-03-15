@@ -42,7 +42,7 @@ valjund3.grid(row=8,column=1)
 sisestus = Entry(aken)
 sisestus.grid(row=0,column=1)
 
-nupp1 = Button(aken, text="Kalkuleeri", width=10, command=summa)
+nupp1 = Button(aken, text="Kalkuta vastus", width=10, command=summa)
 nupp1.grid(row=9, column=1)
 
 #valik
