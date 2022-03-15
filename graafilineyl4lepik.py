@@ -6,7 +6,7 @@ from tkinter import *
 
 #akena
 aken = Tk()
-aken.title('Tkinter "kalkukalaadne')
+aken.title('kalkukalaadne')
 aken.geometry("200x200")
 kast = Label(aken, text="arv")
 kast.grid(row=0,column=1,columnspan=4,ipadx=45)
